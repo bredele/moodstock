@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Test page</title>
+	<link rel="stylesheet" type="text/css" href="src/theme/css/style.css">
+</head>
+<body class="happy">
+	<header class="mood" data-event="listen:keydown,keydown">
+		<div data-event="listen:click,left" class="arrows left" aria-hidden="true" data-icon=""></div>
+		<div aria-hidden="true" class="smiley icon-happy"></div>
+		<div data-event="listen:click,right" class="arrows right" aria-hidden="true" data-icon=""></div>
+	</header>
+	<section>
+		<div class="container">
+			<div class="carret" aria-hidden="true" data-icon=""></div>
+			<div class="mosaic"></div>
+			<div class="col dashboard"></div>
+			<div class="col photos"></div>
+		</div>
+	</section>
+	<footer>
+		<nav class="links mood">
+			<a href=""></a>
+			<a href=""></a>
+		</nav>
+	</footer>
+	<script data-main="src/js/config" src="src/js/lib/require.js"></script>
+</body>
+</html>
