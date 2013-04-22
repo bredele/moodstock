@@ -1,4 +1,4 @@
-define(["./Photobooth"],
+define(["./photobooth"],
 	/*
 	* @class
 	* Photobooth package.
