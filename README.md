@@ -36,6 +36,7 @@ grunt build
  * Add responsive mobile website
  * Save camera pic in localstore with mood
  * Add localstore slideshow
+ * Add tow truck
  * Add soundcloud player
 ---
 
