@@ -1,3 +1,5 @@
+$footer-height:75px;
+
 .col {
 	width:50%;
 	float:left;
@@ -5,4 +7,22 @@
 
 .item {
 	min-height:200px;
+}
+
+.container {
+	width:900px;
+	margin:0 auto;
+}
+
+
+footer {
+  display : table-row;
+  line-height: $footer-height;
+  color:rgba(255,255,255,.7);
+}
+
+
+.links-item {
+	float:right;
+	margin-left:15px;
 }

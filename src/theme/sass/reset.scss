@@ -19,19 +19,4 @@ iframe {
 	background: transparent;
 }
 
-a {
-	text-decoration: none;
-}
- 
-.container {
-	width:900px;
-	margin:0 auto;
-}
-
-
-footer {
-	position:relative;
-  display : table-row;
-  overflow: hidden;
-  height: 75px;
-}
+ a:link, a:visited, a:focus{    color:rgba(255,255,255,.7);text-decoration: none; }

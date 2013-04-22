@@ -32,6 +32,8 @@ grunt build
 
 
 ## Todo
+ * Add copyright
+ * Add core condition
  * Add custom search
  * Add responsive mobile website
  * Save camera pic in localstore with mood
