@@ -1,0 +1,97 @@
+@import "compass";
+@import "compass/css3/user-interface";
+
+.mood {
+	position:relative;
+	height:240px;
+	@include user-select(none);
+}
+
+.mood, .links {
+	@include transition(background .1s linear);
+}
+
+
+.arrows {
+	//display:none;
+	color:rgba(255,255,255,.5);
+	font-size: 0em;
+	//or use animation scale for the bouncing effect
+	@include transition(font-size .1s cubic-bezier(.5,1.16,.51,1.36));
+}
+
+.mood:hover .arrows {
+	//display:initial;
+	font-size: 2.2em;
+}
+
+.arrows:hover {
+	cursor:pointer;
+	color:rgba(255,255,255,.8);
+}
+
+.smiley {
+	//I don't really like playing with padding
+	padding-top:70px;
+	color:rgba(255,255,255,.4);
+	text-align:center;
+	font-size:6em;
+
+}
+.left, .right {
+	position: absolute;
+	top:90px;
+}
+
+.left {
+	left:10px;
+}
+
+.right {
+	right:10px;
+}
+
+.carret {
+	font-size: 2.2em;
+	color: white;
+	text-align: center;
+	position: relative;
+	bottom: 57px;
+}
+
+.links {
+	width:100%;
+	height:75px;
+}
+
+//should make a new class
+.happy {
+	.mood {
+		background:#FFBB00;
+	}
+}
+
+.sad {
+	.mood {
+		background:#646464;
+	}
+}
+
+.mad {
+	.mood {
+		background:#A63126;
+	}
+}
+
+.depress {
+	.mood {
+		background:#809BBF;
+	}
+}
+
+.soso {
+	.mood {
+		background:#45BF55;
+	}
+}
+

@@ -1,0 +1,34 @@
+@import "compass";
+
+.mood-input {
+	border:1px solid #ccc;
+	width: 260px; height:30px;
+}
+.mood-input:hover {
+	border:1px solid #b9b9b9;
+}
+.mood-input #search-mood {
+	color:#ccc;
+	float:left;
+	padding:7px;
+}
+
+.input {
+	//not really reusable
+	width: 230px;
+	font-size: 1em;
+	border:0; outline: none;
+	padding: 0;
+	height: 30px;
+}
+
+.title {
+	color: rgba(0,0,0,0.5);
+	font-size:1.3em;
+	font-weight: 300;
+}
+
+.title small {
+	font-size:.7em;
+	color: rgba(0,0,0,0.4);
+}

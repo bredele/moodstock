@@ -1,0 +1,50 @@
+.booth-frame {
+	position: relative;
+	width:250px;
+	height:188px;
+}
+
+
+//give a class?
+.abs {
+	position: absolute;
+	top:0;left:0;
+}
+
+.cam {
+	font-size: 5em;
+	padding: 0 85px;
+	line-height: 188px;
+	//refactor with smiley
+	color:rgba(255,255,255,.4);
+}
+
+.cam:hover{
+	//to refactor with arrows
+	cursor:pointer;
+	color:rgba(255,255,255,.8);
+}
+
+.booth-input {
+	margin-top:20px;
+	width:250px;
+	height:30px;
+}
+
+.mood-description {
+	float:left;
+	width:220px;height:100%;
+	//refactor with other input
+	border:0; outline:none;
+	box-sizing: border-box;
+	padding:0 10px;margin:0;
+	background:rgba(255,255,255,.7);
+}
+
+.take {
+	//not really correct
+	padding: 6px 7px;
+	color:#ccc;
+	float:right;
+	background:white;
+}
