@@ -18,13 +18,13 @@ require(["lib/emily", "lib/olives"], function(){
 
 		core.setObserver(observer);
 		core.start([{
-			name : "mood",
+			name : "flickr",
 			options : []
 		}, {
 			name : "search",
 			options : []
 		}, {
-			name : "flickr",
+			name : "mood",
 			options : []
 		},
 		{
