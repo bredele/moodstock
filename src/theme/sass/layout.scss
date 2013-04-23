@@ -1,16 +1,22 @@
 $footer-height:75px;
 
+.row {
+	width:100%;
+}
 .col {
 	width:50%;
 	float:left;
 }
 
 .item {
-	min-height:200px;
+	background: whitesmoke;
+	padding:20px;
+	min-height:320px;
+	margin:20px;
 }
 
 .container {
-	width:900px;
+	width:1000px;
 	margin:0 auto;
 }
 
@@ -18,7 +24,6 @@ $footer-height:75px;
 footer {
   display : table-row;
   line-height: $footer-height;
-  color:rgba(255,255,255,.7);
 }
 
 

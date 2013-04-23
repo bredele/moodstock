@@ -1,3 +1,13 @@
 <div class="slideshow item">
 	<h2 class="title">Slideshow <small>your moods</small></h2>
+	<div class="last-mood">
+		<h3><small>Your last mood</small></h3>
+		<img width='250' height='188' src="" data-model="bind:src,img">
+	</div>
+	<div class="timeline">
+		<h3><small>Your last 18 moods</small></h3>
+		<div data-list="foreach" data-event="listen:click,setFrame">
+			<img class="timeline-item" width='80' height='60' src="" data-list="bind:src,data">
+		</div>	
+	</div>
 </div>

@@ -1,6 +1,9 @@
 @import "compass";
-
+.search {
+	min-height:600px;
+}
 .mood-input {
+	background: white;
 	border:1px solid #ccc;
 	width: 260px; height:30px;
 }
@@ -26,9 +29,4 @@
 	color: rgba(0,0,0,0.5);
 	font-size:1.3em;
 	font-weight: 300;
-}
-
-.title small {
-	font-size:.7em;
-	color: rgba(0,0,0,0.4);
 }

@@ -5,7 +5,10 @@ define(["./photobooth"],
 	*/
 	function(Widget){
 		return function PhotoBoothConstructor($sandbox){
-			var widget = new Widget();
+			var widget = new Widget($sandbox);
+			$sandbox.on("mood:mood", function(mood){
+				widget.mood = mood;
+			});
 		};
 	}
 );
