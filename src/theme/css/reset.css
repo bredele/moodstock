@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 html,body{margin:0px;padding:0;height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{display:table;height:100%;width:100%;color:#3f3f3f;font-family:"Open Sans",Arial,Helvetica,Sans-Serif}h1,h2{font-weight:300;margin:0}iframe{border:0;background:transparent}a{text-decoration:none}.container{width:900px;margin:0 auto}footer{position:relative;display:table-row;overflow:hidden;height:75px}
+=======
+html,body{margin:0px;padding:0;height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{display:table;height:100%;width:100%;color:#3f3f3f;font-family:"Open Sans",Arial,Helvetica,Sans-Serif}iframe{border:0;background:transparent}a:link,a:visited,a:focus{color:rgba(255,255,255,0.7);text-decoration:none}small{font-size:.7em;color:rgba(0,0,0,0.4)}
+>>>>>>> develop

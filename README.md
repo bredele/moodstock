@@ -32,6 +32,9 @@ grunt build
 
 
 ## Todo
+ * how to avoid QUOTA_EXCEEDED_ERR: DOM Exception 22
+ * Add mood and date img frame
+ * Add core condition
  * Add custom search
  * Add responsive mobile website
  * Save camera pic in localstore with mood

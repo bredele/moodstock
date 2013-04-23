@@ -1,1 +1,1 @@
-.col{width:50%;float:left}.item{min-height:200px}
+.row{width:100%}.col{width:50%;float:left}.item{background:whitesmoke;padding:20px;min-height:320px;margin:20px}.container{width:1000px;margin:0 auto}footer{display:table-row;line-height:75px}.links-item{float:right;margin-left:15px}

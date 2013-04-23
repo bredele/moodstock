@@ -1,8 +1,33 @@
+$footer-height:75px;
+
+.row {
+	width:100%;
+}
 .col {
 	width:50%;
 	float:left;
 }
 
 .item {
-	min-height:200px;
+	background: whitesmoke;
+	padding:20px;
+	min-height:320px;
+	margin:20px;
+}
+
+.container {
+	width:1000px;
+	margin:0 auto;
+}
+
+
+footer {
+  display : table-row;
+  line-height: $footer-height;
+}
+
+
+.links-item {
+	float:right;
+	margin-left:15px;
 }
