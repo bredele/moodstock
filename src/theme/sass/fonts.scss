@@ -27,7 +27,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-arrow-up, .icon-arrow-left, .icon-arrow-right, .icon-mad, .icon-depress, .icon-sad, .icon-grin, .icon-happy, .icon-soso, .icon-camera {
+.icon-arrow-up, .icon-arrow-left, .icon-arrow-right, .icon-mad, .icon-depress, .icon-sad, .icon-grin, .icon-happy, .icon-soso, .icon-camera,  .icon-github {
 	font-family: 'moodstock';
 	speak: none;
 	font-style: normal;
@@ -67,4 +67,8 @@ you can use the generic selector below, but it's slower:
 
 .icon-camera:before {
 	content: "\e009";
+}
+
+.icon-github:before {
+	content: "\f113";
 }
